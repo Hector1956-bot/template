@@ -10,20 +10,20 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
-  color: #444;
-  font-family: "Open Sans", sans-serif;
+  background: #1414d3;
+  color: #999b63f1;
+  font-family: "open sans", sans-serif;
 }
 
 a {
-  color: #007bff;
+  color: #0d0e0d;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #07151a;
   outline: none;
   text-decoration: none;
 }
@@ -38,8 +38,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
+h6,{ 
+  font-family: "montserrat", sans-serif; 
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -50,8 +50,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
-  color: #fff;
+  background: #1b1818;
+  color: #250909f3;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -66,7 +66,7 @@ h6 {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: #2f1d5e27;
 }
 
 /* Prelaoder */
@@ -79,7 +79,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #131212;
 }
 
 #preloader:before {
@@ -87,8 +87,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #007bff;
+  border: 6px solid #242222;
+  border-top: 6px solid #262627;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -130,8 +130,8 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  background: #181616;
+  box-shadow: 0px 0px 30px rgba(28, 33, 44, 0.3);
 }
 
 #header.header-scrolled,
@@ -152,7 +152,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #00366f;
+  color: #037412;
   text-decoration: none;
 }
 
@@ -189,14 +189,14 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: #faf1f1;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #4e647c;
   text-decoration: underline;
 }
 
@@ -211,17 +211,17 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
-  color: #fff;
+  color: #221e1e;
 }
 
 #intro .intro-info .btn-get-started {
   background: #007bff;
   border: 2px solid #007bff;
-  color: #fff;
+  color: #383333;
 }
 
 #intro .intro-info .btn-get-started:hover {
-  background: none;
+  background: #07151a;
   border-color: #fff;
   color: #fff;
 }
@@ -263,7 +263,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #216dbe;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -287,8 +287,8 @@ h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #201e1e;
+  box-shadow: 0px 0px 30px rgb(72, 116, 219);
   transition: ease all 0.3s;
 }
 
@@ -353,7 +353,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(121, 207, 207, 0.8);
   transition: 0.4s;
 }
 
@@ -430,7 +430,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(38, 128, 207, 0.8);
   overflow: hidden;
   display: none;
 }
@@ -444,7 +444,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: hsla(0, 6%, 17%, 0.425);
 }
 
 /*--------------------------------------------------------------
@@ -456,7 +456,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #2a689e;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -467,7 +467,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #5490be;
   width: 50%;
 }
 
@@ -475,14 +475,14 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #242425ec;
 }
 
 /* About Us Section
 --------------------------------*/
 
 #about {
-  background: #fff;
+  background: #292727;
   padding: 60px 0;
 }
 
@@ -491,11 +491,11 @@ h6 {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #1a1a1b;
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #ddcfcf;
   font-weight: 700;
   font-size: 32px;
 }
@@ -509,14 +509,14 @@ h6 {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: #231c41;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: #4b66db;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -552,7 +552,7 @@ h6 {
 }
 
 #about .about-container .icon-box:hover .icon i {
-  color: #fff;
+  color: #2c2929;
 }
 
 #about .about-container .icon-box .title {
@@ -563,7 +563,7 @@ h6 {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #1e2831;
 }
 
 #about .about-container .icon-box .description {
@@ -586,7 +586,7 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 12px 0px rgba(33, 36, 36, 0.904);
 }
 
 #services .box {
@@ -595,8 +595,8 @@ h6 {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  background: #141313;
+  box-shadow: 0 10px 29px 0 rgba(110, 139, 219, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
@@ -625,7 +625,7 @@ h6 {
 }
 
 #services .title a {
-  color: #111;
+  color: #e4dede;
 }
 
 #services .box:hover .title a {
@@ -646,7 +646,7 @@ h6 {
 
 #why-us .section-header h3,
 #why-us .section-header p {
-  color: #fff;
+  color: #161515;
 }
 
 #why-us .card {
@@ -656,7 +656,7 @@ h6 {
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #fff;
+  color: #382c2c;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
@@ -669,7 +669,7 @@ h6 {
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #bdcad8;
 }
 
 #why-us .card h5 {
@@ -924,9 +924,9 @@ h6 {
 --------------------------------*/
 
 #team {
-  background: #fff;
+  background: #000000;
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 12px 0px rgba(2, 2, 2, 0.603);
 }
 
 #team .member {
@@ -1109,12 +1109,12 @@ h6 {
 }
 
 #contact .info {
-  color: #283d50;
+  color: #4e84b3;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #89b6e5;
   float: left;
   line-height: 1;
 }
@@ -1136,7 +1136,7 @@ h6 {
 }
 
 #contact .form #errormessage {
-  color: red;
+  color: rgb(26, 7, 78);
   display: none;
   border: 1px solid red;
   text-align: center;
